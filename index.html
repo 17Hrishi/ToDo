@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>Frontend Mentor | Todo app</title>
+</head>
+
+<body>
+  <header class="banner">
+    <div class="banner-content">
+      <h1 class="logo">TODO</h1>
+      <img src="./images/icon-sun.svg" alt="icon-sun" id="toggle">
+    </div>
+  </header>
+
+  <section class="content">
+    <div class="container">
+      <form id="form">
+        <div class="add-todo">
+          <div class="ring"></div>
+          <input type="text" id="input" class="input" autocomplete="off" placeholder="Create a new todo...">
+        </div>
+
+        <ul class="todos" id="todos"></ul>
+        <div class="btns-container">
+          <small><span id="itemsNo">5</span> items left</small>
+          <div class="btns">
+            <button class="btn active" id="all">All</button>
+            <button class="btn" id="active">Active</button>
+            <button class="btn" id="completed">Completed</button>
+          </div>
+          <button class="clear btn" id="clear-btn">Clear Completed</button>
+        </div>
+      </form>
+    </div>
+    <small class="info">Drag and drop to reorder list</small>
+  </section>
+</body>
+
+</html>
