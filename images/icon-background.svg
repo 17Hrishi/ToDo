@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Dark Mode - Circle -->
+  <circle cx="6" cy="6" r="4" stroke="currentColor" fill="none"></circle>
+  
+  <!-- Light Mode - Rectangle -->
+  <rect x="12" y="2" width="8" height="8" rx="2" ry="2" stroke="currentColor" fill="none"></rect>
+  
+  <!-- Toggle Shape - Square -->
+  <rect x="2" y="12" width="8" height="8" stroke="currentColor" fill="none"></rect>
+  
+  <!-- Cross (Center to represent switch or interaction) -->
+  <path d="M9 12h6"></path>
+  <path d="M12 9v6"></path>
+</svg>
